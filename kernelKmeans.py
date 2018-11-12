@@ -32,7 +32,7 @@ def laplace_array(moon_x,moon_y,gamma):
 
     return D-S
 
-#实现ratio_cut方法，返回归一化后的矩阵
+#实现ratio_cut方法，返回归一化后的matrix
 def ratio_cut(laplace,k):
 
     val, vec = np.linalg.eig(laplace)
